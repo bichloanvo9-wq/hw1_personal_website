@@ -60,7 +60,7 @@ const projectData = {
     badge: "Thesis Research Proposal",
     content: `
       <div style="margin: 0 0 16px; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-        <img src="assets/bankruptcy_pipeline.png" alt="Bankruptcy Prediction Architecture Flowchart" style="max-height: 380px; width: auto; margin: 0 auto; display: block;">
+        <img src="assets/bankruptcy_pipeline.png" alt="Bankruptcy Prediction Architecture Flowchart" style="max-width: 100%; max-height: 380px; height: auto; object-fit: contain; margin: 0 auto; display: block;">
       </div>
       <p style="margin-bottom:12px;"><strong>Title:</strong> <em>"Predicting Corporate Bankruptcy of U.S. Public Firms: A Multi-Modal Comparative Framework Integrating Financial Ratios and SEC Form 10-K Narrative Disclosures"</em></p>
       <h5 style="color:#00a78e; margin: 15px 0 6px; font-weight:700;">1. Research Objective & Context (2010–2025)</h5>
@@ -185,7 +185,7 @@ const projectData = {
     badge: "BERTopic · VADER · Time-Series · SpaCy",
     content: `
       <div style="margin: 0 0 16px; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-        <img src="assets/bbc_emotional_profile.png" alt="RQ2 Emotional Profile per Topic" style="max-height: 340px; width: auto; margin: 0 auto; display: block;">
+        <img src="assets/bbc_emotional_profile.png" alt="RQ2 Emotional Profile per Topic" style="max-width: 100%; max-height: 340px; height: auto; object-fit: contain; margin: 0 auto; display: block;">
       </div>
 
       <p style="color:#555; margin-bottom:14px; line-height: 1.7;">
@@ -197,7 +197,7 @@ const projectData = {
         Using <strong>BERTopic</strong> with <code>all-MiniLM-L6-v2</code> transformer contextual embeddings and spaCy POS filtering (synthesizing title and description tokens):
       </p>
       <div style="margin: 14px 0 16px; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 10px;">
-        <img src="assets/bbc_topic_volume.png" alt="RQ1 Topic Volume Top 10" style="max-height: 320px; width: auto; margin: 0 auto; display: block;">
+        <img src="assets/bbc_topic_volume.png" alt="RQ1 Topic Volume Top 10" style="max-width: 100%; max-height: 320px; height: auto; object-fit: contain; margin: 0 auto; display: block;">
       </div>
       <ul style="padding-left:20px; color:#555; line-height:1.7;">
         <li><strong>Volume Dominance:</strong> Political reporting (<em>Elections, Trump, UK Governance</em> with 8,142 articles) and Sports (<em>World Cup, Premier League</em> with 5,699 articles) make up over 50% of the structured corpus, forming the foundation of daily coverage.</li>
@@ -207,7 +207,7 @@ const projectData = {
       <h5 style="color:#00a78e; margin: 18px 0 8px; font-weight:700;"><i class="fas fa-heartbeat"></i> 2. RQ2: Sentiment Profiling & Systemic Negativity Bias</h5>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 14px 0 16px;">
         <div style="border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 10px;">
-          <img src="assets/bbc_sentiment_distribution.png" alt="Overall Sentiment Distribution" style="max-height: 250px; width: auto; margin: 0 auto; display: block;">
+          <img src="assets/bbc_sentiment_distribution.png" alt="Overall Sentiment Distribution" style="max-width: 100%; max-height: 250px; height: auto; object-fit: contain; margin: 0 auto; display: block;">
           <div style="font-size: 11.5px; color: #64748b; margin-top: 6px; font-weight: 600;">Overall Corpus Polarity Distribution</div>
         </div>
         <div style="display: flex; flex-direction: column; justify-content: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 16px;">
@@ -224,7 +224,7 @@ const projectData = {
 
       <h5 style="color:#00a78e; margin: 18px 0 8px; font-weight:700;"><i class="fas fa-wave-square"></i> 3. RQ3: Temporal Spikes & Sentiment-Volume Correlation</h5>
       <div style="margin: 14px 0 16px; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 10px;">
-        <img src="assets/bbc_temporal_trends.png" alt="Temporal Trends for 3 Major Topics" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0 auto; display: block;">
+        <img src="assets/bbc_temporal_trends.png" alt="Temporal Trends for 3 Major Topics" style="max-width: 100%; height: auto; object-fit: contain; margin: 0 auto; display: block;">
       </div>
       <ul style="padding-left:20px; color:#555; line-height:1.7;">
         <li><strong>Negative Pearson Correlation (r &lt; 0):</strong> Across most hard news topics, significant surges in publication volume mathematically correlate with shifts toward negative emotional polarity.</li>
@@ -233,7 +233,7 @@ const projectData = {
 
       <h5 style="color:#00a78e; margin: 18px 0 8px; font-weight:700;"><i class="fas fa-check-double"></i> 4. Audit Rigor: Manual Recheck & Model Limitations</h5>
       <div style="margin: 14px 0 16px; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; text-align: center; background: #ffffff; padding: 8px;">
-        <img src="assets/bbc_manual_validation.png" alt="Manual Validation Audit Table" style="width: 100%; display: block;">
+        <img src="assets/bbc_manual_validation.png" alt="Manual Validation Audit Table" style="max-width: 100%; height: auto; display: block;">
       </div>
       <p style="color:#555; line-height: 1.7;">
         Applying auditing skepticism to evaluate rule-based NLP: Human spot-checking uncovered key false positives where VADER misclassified British legal terminology and colloquial idioms (e.g., misinterpreting <em>"high UK energy bills"</em> or <em>"Ronaldo dropped"</em> due to vocabulary nuances), highlighting the necessity of contextual domain adaptations.

@@ -24,6 +24,11 @@
   box-sizing: border-box;
 }
 
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -1218,6 +1223,36 @@ ul.address-text li:last-child a {
 
 .modal-close:hover {
   color: var(--dark);
+}
+
+.modal-box img,
+#modal-body img {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-box video,
+#modal-body video {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .modal-overlay {
+    padding: 10px;
+  }
+  .modal-box {
+    padding: 24px 14px 18px;
+    max-height: 90vh;
+    border-radius: 8px;
+  }
+  #modal-body div[style*="display: grid"],
+  #modal-body div[style*="display:grid"] {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /* Responsive adjustments */
